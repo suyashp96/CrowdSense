@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scan QR | CrowdPulse</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/html5-qrcode"></script>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">C CrowdPulse</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="map.html">Campus Map</a></li>
+    <li><a class="active" href="scan.html">Scan QR</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>📷 Scan QR Code</h1>
+  <p class="subtitle">Scan to check-in and update your location</p>
+
+  <div class="qr-container">
+    <div id="reader"></div>
+  </div>
+</div>
+
+<script src="scan.js"></script>
+</body>
+</html>

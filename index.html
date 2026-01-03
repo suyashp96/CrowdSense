@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CrowdPulse | Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">CrowdPulse</div>
+
+  <ul class="nav-links">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="map.html">Campus Map</a></li>
+    <li><a href="scan.html">Scan QR</a></li>
+  </ul>
+</nav>
+
+<!-- MAIN -->
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="page-header">
+    <span class="icon">📊</span>
+    <div>
+      <h1>Crowd Status</h1>
+      <p class="subtitle">Monitor real-time crowd levels across campus</p>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div class="cards">
+
+    <!-- LIBRARY -->
+    <div class="card" style="--accent:#22c55e">
+      <div class="card-header">
+        <div class="title">
+          <span>📚</span>
+          <strong>Library</strong>
+        </div>
+        <span class="badge low">Low</span>
+      </div>
+
+      <div class="count">45 <span>/ 200</span></div>
+      <p class="meta">People currently • Live</p>
+
+      <div class="progress">
+        <span class="green" style="width:23%"></span>
+      </div>
+    </div>
+
+    <!-- CANTEEN -->
+    <div class="card" style="--accent:#ef4444">
+      <div class="card-header">
+        <div class="title">
+          <span>🍽️</span>
+          <strong>Canteen</strong>
+        </div>
+        <span class="badge high">High</span>
+      </div>
+
+      <div class="count">285 <span>/ 350</span></div>
+      <p class="meta">Peak time • +12%</p>
+
+      <div class="progress">
+        <span class="red" style="width:81%"></span>
+      </div>
+    </div>
+
+    <!-- GYM -->
+    <div class="card" style="--accent:#facc15">
+      <div class="card-header">
+        <div class="title">
+          <span>🏋️</span>
+          <strong>Gym</strong>
+        </div>
+        <span class="badge medium">Medium</span>
+      </div>
+
+      <div class="count">78 <span>/ 150</span></div>
+      <p class="meta">Stable • Normal flow</p>
+
+      <div class="progress">
+        <span class="yellow" style="width:52%"></span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
